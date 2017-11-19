@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>MDW test</title>
+            <meta name="viewport" content="width=device-width,initial-scale=1">
+          <link rel="stylesheet" href="node_modules/material-components-web/dist/material-components-web.css">
+          <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <style>
+            :root {
+                --mdc-theme-primary: #607D8B;
+                --mdc-theme-secondary: #1976d2; 
+              }
+            body { 
+                color: var(--mdc-theme--primary); 
+            }
+     
+        </style>
+        <script src="node_modules/material-components-web/dist/material-components-web.js"></script>
+    </head>
+    <body class="mdc-typography">
+    <header class="mdc-toolbar mdc-toolbar--fixed mdc-toolbar--fixed-lastrow-only mdc-toolbar--waterfall mdc-toolbar--flexible mdc-toolbar--flexible-default-behavior">
+        <div class="mdc-toolbar__row">
+            <h1 class="mdc-toolbar__title">My Big Fat Greek Title</h1>
+        </div>
+        <div class="mdc-toolbar__row">
+            <nav class="mdc-tab-bar" id="the_nav">
+                <a class="mdc-tab mdc-tab--active" href="#one">Issue</a>
+                <a class="mdc-tab" href="#three">Get Started</a>
+                <a class="mdc-tab" href="#four">Get Help</a>
+                <span class="mdc-tab-bar__indicator"></span>
+            </nav>
+        </div>
+    </header>
+    <section class="mdc-toolbar-fixed-adjust">
+        <div class="mdc-layout-grid">
+            <div class="mdc-layout-grid__inner">    
+                <div class="mdc-layout-grid__cell--span-6 panel active" id="one">
+                    <h1 class="mdc-typography--display1">My</h1>
+                    <p class="demo-paragraph">
+                      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+                    </p>
+                    <p class="demo-paragraph">
+                      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+                    </p>
+        </div>
+        <div class="mdc-layout-grid__cell--span-6 panel">
+            <h1 class="mdc-typography--display1">Big</h1>
+         <p class="demo-paragraph">
+                      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+                    </p>
+                    <p class="demo-paragraph">
+                      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+                    </p>
+                </div>
+        <div class="mdc-layout-grid__cell--span-6 panel" id="two">
+        <h1 class="mdc-typography--display2">Fat</h1>
+        <p class="demo-paragraph">
+          Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. This is my live change.
+        </p>
+        <p class="demo-paragraph">
+          Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. This is my live change.
+        </p>
+                </div>
+                <div class="mdc-layout-grid__cell--span-6 panel" id="four">
+        <h1 class="mdc-typography--display2">Greek</h1>
+        <p class="demo-paragraph">
+          Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. This is my live change.
+        </p>
+        <p class="demo-paragraph">
+          Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. This is my live change.
+        </p>
+                </div>
+                        </div>
+        </div>
+      </section>
+      <footer class="footer__row">
+        <div class="footer-border"></div>
+        <p class="demo-paragraph">Developed by me!</p>
+      </footer>
+    </body>
+    <script>
+      var toolbar = mdc.toolbar.MDCToolbar.attachTo(document.querySelector('.mdc-toolbar'));
+      toolbar.fixedAdjustElement = document.querySelector('.mdc-toolbar-fixed-adjust');
+      mdc.tabs.MDCTabBar.attachTo(document.querySelector('#the_nav'));
+      //mdc.autoInit();
+    </script>
+</html>
